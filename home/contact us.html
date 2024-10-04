@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <button id="backbtn"> <a href="../index.html">Back</a></button><br>
+<head>
+<meta charset="UTF-8">
+<title>Contact us </title> <link rel="stylesheet" href="../css/style5.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+</head>
+<style>
+    #backbtn {
+    padding: 5px;
+    font-size: 15px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    float: left;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Connect With Us</h1>
+        <p>We would love to respond to your queries and help you succeed.<br>Feel free to get in touch with us.</p>
+        <div class="contact-box"> <div class="contact-left">
+            <h3>Send your request</h3>
+            <form action="../admin/Contact.php" method="POST">
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" name="name" placeholder="Your name">
+                    </div>
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="text" name="mobile" placeholder="+91 900 900 9999">
+                    </div>
+                </div>
+                
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="text" name="email" placeholder="demoemail@gmail.com">
+                    </div>
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <input type="text" name="subject" placeholder="Project Demo">
+                    </div>
+                </div>
+
+                
+                <label>Message</label>
+                <textarea rows="5" name="message" placeholder="Your Message"></textarea>
+                <button class="btn btn-outline-light btn-lg px-5" name="sbtn"  type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="contact-right">
+            <h3>Reach Us</h3>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>contactus@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>+91 001 002 0304</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>4641 Sarojini Naidu Road,Mulund West,Mumbai 400080</td>
+                </tr>
+            </table>       
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+.title_heading{
+    font-size: 3rem;
+}
+select , .user_image{
+    align-items: center;
+    padding: .4rem;
+    height: 100%;
+    width: 70%;
+    border: 1.5px rgb(255, 255, 255) solid;
+    background-color: rgba(var(--mdb-dark-rgb),var(--mdb-bg-opacity))!important;
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 5px;
+  
+}
+
+
+
+ 

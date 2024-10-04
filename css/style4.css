@@ -1,0 +1,18 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: Century Gothic;
+    font-size: 20px;
+}
+.box{
+    background: linear-gradient(rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    width: 90%;
+    padding: 50px;   
+    float: right;  
+    border:2px solid black;          
+}
+.info {
+    background: linear-gradient(rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+ }
+
+
